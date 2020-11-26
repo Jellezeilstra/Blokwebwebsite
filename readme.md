@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. https://www.tele2.nl
 2. -bron 2-
 3. -...-
 
@@ -38,21 +38,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Opzich ging het wel redelijk goed. Ik moet zeggen dat ik geluk heb dat Tele2 een website heeft met veel herhaling, dus ik kon veel code overnemen en anders stylen. 
+Toch merkte ik dat ik net zoals vorige jaren soms redelijk in de knoei begin te raken als het om CSS gaat.
+Ik ben heel lang bezig met dingen die voor mij gevoel veel sneller kunnen.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/voortgang1" alt="Voortgang 1 pagina">
+
+De pagina ziet dr naar mijn mening best wel uit als die van tele2. Alleen klopt nog veel code niet naar mijn mening.
+Dit wil ik verbeteren.
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Daniel
+
+- positionering lijst onder header
+- kleur geven aan SVG
+- flexbox 
+
+Judith
+
+- navigatie (hamburger)
+- gebruik sections
+- juist verstoppen van h1
+
+Faye 
+
 
 ### Verslag van meeting
 
