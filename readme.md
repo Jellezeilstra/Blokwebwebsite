@@ -44,7 +44,7 @@ Ik ben heel lang bezig met dingen die voor mij gevoel veel sneller kunnen.
 
 **Screenshot(s):**
 
-<img src="images/voortgang1" alt="Voortgang 1 pagina">
+<img src="images/voortgang1.png" alt="Voortgang 1 pagina">
 
 De pagina ziet dr naar mijn mening best wel uit als die van tele2. Alleen klopt nog veel code niet naar mijn mening.
 Dit wil ik verbeteren.
