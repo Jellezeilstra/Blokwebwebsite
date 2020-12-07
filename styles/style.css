@@ -1,69 +1,102 @@
 *,
 html {
   margin: 0;
+  padding: 0;
+
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 /*header*/
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 header {
-  border-bottom: 1px solid black;
   display: flex;
-  /justify-content: center;
   align-items: center;
-  
 }
 
 header img {
-  width: 95px;
-  height: 95px;
+  width: 85px;
+  height: 75px;
 }
 
 nav {
+  margin-left: auto;
+}
+
+nav ul {
   display: flex;
   justify-content: flex-end;
-  margin-right: 0;
-
+  margin-right: 1rem;
+  list-style-type: none;
 }
 
 nav img {
   width: 60px;
-  height: 60px;
+  height: 70px;
 }
-
-
-
 
 /* main */
 
-body {
-  /position: absolute;
+/* https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content/*/
+
+/*index pagina*/
+
+/*sections*/
+
+#pag1 section {
+  padding: 2rem;
 }
 
-/* articles*/
-
-ul {
-  list-style-type: ;
+section p {
+  /margin-top: 1rem;
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  font-size: 21px;
 }
+
+#pag1 section ul {
+  margin-top: .75rem;
+  padding-left: 1.5rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#pag1 section li {
+  padding-top: 0.5rem;
+  font-family: 'Exo', sans-serif;
+}
+
+
 
 h2 {
-  margin-top: 2rem;
-  margin-left: 1.25rem;
+  text-transform: uppercase;
   font-family: 'Alfa Slab One', cursive;
   font-weight: 300;
-  font-size: 2.25rem;
-
+  font-size: 2rem;
 }
 
-.tweeblauw {
+.h2blauw {
   color: #005eb8;
   margin-top: -0.30em;
+  text-transform: uppercase;
 }
 
-.tweegeel {
+.h2geel {
   color: #fedd00;
   margin-top: -0.30em;
+  text-transform: uppercase;
 }
 
 
@@ -71,6 +104,15 @@ h2 {
   background-color: wheat;
   display: flex;
   flex-direction: column;
+}
+
+section .of {
+  color: #005eb8;
+  font-size: 18px;
+  /font-weight: ;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .links1 {
@@ -93,6 +135,61 @@ h2 {
   flex-direction: column;
 }
 
+/* black friday */
+
+#bf {
+  margin-top: 2rem;
+}
+
+.bf-deals {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  margin-top: .25rem;
+  padding: 0.5rem;
+}
+
+.bfh2 {
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 300;
+  font-size: 1.5rem;
+  max-width: 70%;
+  text-transform: uppercase;
+}
+
+.bf-deals ul {
+  font-size: 18px;
+}
+
+.bf-deals .pgeel {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 12px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fedd00;
+}
+
+.bf-deals .proze {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 12px;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  background-color: #d40f7d;
+}
+
+.bf-deals img {
+  height: 155px;
+  width: 175px;
+}
+
 .galaxys20 {
   background-color: white;
   display: flex;
@@ -106,7 +203,7 @@ h2 {
   flex-direction: column;
 }
 
-.internet {
+/.internet {
   color: black;
   background-color: white;
   display: flex;
@@ -125,20 +222,13 @@ h2 {
 
 }
 
-article .of {
-  color: #005eb8;
-  font-size: 18px;
-  /font-weight: ;
-  margin-bottom: 3rem;
-  display: flex;
-  justify-content: center;
-}
+
 
 
 
 /* Button styling*/
 
-button {
+#pag1 button {
   margin: 1rem;
   padding: 1.5rem;
   border: 0px;
@@ -203,11 +293,8 @@ button {
   text-decoration: none;
 }
 
-
-
-
 .bdonkerblauw {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   background-color: #005eb8;
 }
 
@@ -219,12 +306,24 @@ button {
 }
 
 .bgeel {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   background-color: #fedd00;
 }
 
 .bgeel a {
   color: black;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.bzwart {
+  margin-bottom: 1rem;
+  background-color: #1c1c1c
+}
+
+.bzwart a {
+  color: white;
   font-size: 18px;
   font-weight: 700;
   text-decoration: none;
@@ -286,4 +385,197 @@ footer p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+/* Telefoon pagina*/
+
+/* main */
+
+/* blauw stukje*/
+
+.blauw {
+  padding: 1rem;
+  background-color: #009fdf;
+}
+
+.blauw a {
+  font-family: 'Exo', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.blauw h2 {
+  margin: 3rem 1rem 0 1rem;
+  font-size: 1.5rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* section */
+
+#pag2 section:nth-of-type(2) {
+  margin: 4rem 1rem 0rem 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(0,0,0,.2);
+  /background-color: violet;
+}
+
+#pag2 section:nth-of-type(2) p {
+  font-family: 'Exo', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+
+#pag2 section:nth-of-type(2) a {
+  color: #005eb8;
+  font-family: 'Exo', sans-serif;
+}
+
+#pag2 section:nth-of-type(3) img {
+  margin: 2rem .5rem 1rem 1rem;
+  width: 300px;
+}
+
+#pag2 section:nth-of-type(3) {
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  justify-content: center;
+  
+}
+
+#pag2 section:nth-of-type(3) li img {
+  width: 40px;
+  /height: 80px;
+}
+
+#pag2 section:nth-of-type(3) li {
+  margin-top: .5rem;
+  list-style-type: none;
+  border: 1px solid #009fdf;border-radius: 5px;
+}
+
+#pag2 section:nth-of-type(4) {
+  display: flex;
+  justify-content: center;
+}
+
+.v1 {
+  height: 48px;
+  width: 48px;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 3px solid #009fdf;
+  background: #1c1c1c;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+.v2 {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  border: none;
+  background-color: #005eb8;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+.v3 {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: white;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+.v4 {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: #FE2E2E;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+.v5 {
+  height: 48px;
+  width: 48px;
+  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.2);
+  background-color: #A9F5A9;
+  vertical-align: top;
+  margin-right: 1rem;
+}
+
+#pag2 section:nth-of-type(5) {
+  display: flex;
+  justify-content: center;
+}
+
+.v6 {
+  margin: 1.5rem .25rem 1.5rem .25rem;
+  padding: .75rem 1rem;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid #009fdf;
+  border-radius: 8px;
+  color: white;
+  background-color: #009fdf;
+}
+
+.v6:hover {
+  border: 1px solid #009fdf;
+  transition: .25s ease-in-out; 
+}
+
+.v7 {
+  margin: 1.5rem .25rem 1.5rem .25rem;
+  padding: .75rem 1rem;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  color: black;
+}
+
+.v7:hover {
+  border: 1px solid #009fdf;
+  transition: .25s ease-in-out; 
+}
+
+.v8 {
+  margin: 1.5rem .25rem 1.5rem .25rem;
+  padding: .75rem 1rem;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  color: black;
+}
+
+.v8:hover {
+  border: 1px solid #009fdf;
+  transition: .25s ease-in-out; 
 }
