@@ -32,16 +32,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Opzich ging het wel redelijk goed. Ik moet zeggen dat ik geluk heb dat Tele2 een website heeft met veel herhaling, dus ik kon veel code overnemen en anders stylen. 
-Toch merkte ik dat ik net zoals vorige jaren soms redelijk in de knoei begin te raken als het om CSS gaat.
-Ik ben heel lang bezig met dingen die voor mij gevoel veel sneller kunnen.
+Opzich ging het wel redelijk goed. Ik heb niet heel veel tijd gehad, maar ben redelijk verder gekomen met mijn site.
+Ik heb ook hulp gevraagd aan sam, die mij goed geholpen heeft. Ik kwam alleen niet verder met pagina 2, dus daar wil ik deze voortgang 
+graag voor gaan gebruiken. Ook moet ik nu gaan beginnen met breakpoints.
 
 **Screenshot(s):**
 
-<img src="images/voortgang1.png" width="375px" alt="Voortgang 1 pagina">
+<img src="images/voortgang2.png" width="375px" alt="Voortgang 2  homepagina">
+<img src="images/voortgang2.1.png" width="375px" alt="Voortgang 2  detailpagina">
 
-De pagina ziet dr naar mijn mening best wel uit als die van tele2. Alleen klopt nog veel code niet naar mijn mening.
-Dit wil ik verbeteren.
+De pagina's zien er goed uit, alleen moet ik nu bezig gaan met het afmaken van pagina 2, en zorgen dat ze goed positioneren op breakpoints.
 
 ### Agenda voor meeting
 
@@ -49,26 +49,14 @@ Dit wil ik verbeteren.
 
 Daniel
 
-- positionering lijst onder header
-- kleur geven aan SVG
-- flexbox 
 
 Judith
 
-- navigatie (hamburger)
-- gebruik sections
-- juist verstoppen van h1
 
 Faye 
 
 
 ### Verslag van meeting
-
-Ik was goed geholpen met mijn nav en andere dingen die ik nog niet snapte. Hier ben ik mee verder gegaan. Ook had ik veel geleerd van de tips die andere 
-kregen, zoals het verstoppen van mijn H1.
-
-
-
 
 
 ## Voortgang 1 (week 3)
