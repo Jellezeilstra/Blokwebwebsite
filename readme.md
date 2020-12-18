@@ -24,7 +24,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik ben na het tweede voortgangsgespek, een week hiervoor, niet meer super veel bezig geweest met de code. Ik had het erg druk met andere vakken, dus vond ik het lastig om ook nog motivatie te vinden om aan mijn website te gaan. Toch weet ik wat mijn doelen zijn voor deze vakantie, en wil mijn vakantie dan ook goed gaan gebruiken om onderandere aan mijn website te werken. 
+
+**Screenshot(s):**
+
+<img src="images/voortgang2.png" width="375px" alt="Voortgang 2  homepagina">
+<img src="images/voortgang3.1.png" width="375px" alt="Voortgang 2  detailpagina">
+
+De pagina's zien er goed uit, alleen moet ik nu bezig gaan met het afmaken van pagina 2. Ook moet ik de pagina's responsive gaan maken, en js toevoegen.
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+Daniel
+
+
+Judith
+
+
+Faye 
+
+
+### Verslag van meeting
+
 
 
 
@@ -57,7 +82,8 @@ Faye
 
 
 ### Verslag van meeting
-
+Ik heb veel feedback gekregen voor mijn code. Hier heb ik goed naar gekeken en aangepast wat nodig was. Het feedbackgesprek later die maandag ging
+best goed, ik heb nog wat extra tips gekregen en wil hier graag mee aan de slag gaan. 
 
 ## Voortgang 1 (week 3)
 
