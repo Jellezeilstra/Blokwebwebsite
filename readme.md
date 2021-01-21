@@ -8,13 +8,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.tele2.nl
 2. https://www.a11yproject.com/posts/2013-01-11-how-to-hide-content
-3. -...-
+3. https://www.w3schools.com/howto/howto_js_rangeslider.asp
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik ben niet verder gekomen met mijn werk vanwege studievertraging. Hierdoor heb ik besproken om mijn werk in de herkansing in te leveren. 
+Ik ben vooral nog bezig geweest met het afmaken van mijn 2e pagina, mijn microinteractie en de website responsive maken.
 
 **Screenshot(s):**
 
