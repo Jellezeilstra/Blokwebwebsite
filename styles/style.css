@@ -27,21 +27,23 @@ header {
   position: relative;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-header img {
-  width: 85px;
-  height: 75px;
+.logo {
+  max-height: 6em;
+}
+
+header button {
+  cursor: pointer;
 }
 
 .header {
-  position: absolute;
-  right: 0px;
+margin-left: auto;
 }
 
 .header ul {
   display: flex;
-  justify-content: flex-end;
   margin-right: 1rem;
   list-style-type: none;
 }
@@ -51,6 +53,93 @@ header img {
   height: 70px;
 }
 
+
+/* hamburgermenu */
+
+
+.homepagina .hamburgermenu {
+  display: none;
+}
+
+body.toonMenu .hamburgermenu{
+ display: block;
+ transition: 2s;
+}
+
+.hamburgermenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+.pijl {
+  position: absolute;
+  right: 0;
+  width: 8%;
+  height: 7%;
+}
+
+.hamburgermenu a {
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.hamburgermenu ul {
+  list-style-type: none;
+  width: 100%;
+}
+
+.hamburgermenu ul li {
+  border: 1px solid #d8d4d4;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.hamburgermenu .laag {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.hamburgermenu .laag img {
+  width: 10%;
+  height: 10%;
+}
+.hamburgermenu .laag a {
+  font-family: 'Exo', sans-serif;
+  font-size: 1.1em;
+}
+
+.prive {
+  background-color: gainsboro;
+  margin: 10rem 1.25rem 9rem 1.25rem;
+  display: flex;
+  justify-content: center;
+}
+
+#b1 {
+  width: 50%;
+  padding: 1rem;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1rem;
+  background-color: white;
+  border: 1px solid #d8d4d4;
+}
+
+#b2 {
+  padding: 1rem;
+  width: 50%;
+  font-family: 'Exo', sans-serif;
+  font-size: 1rem;
+  color: grey;
+  background-color: #e6e6e6;
+  border: 1px solid #d8d4d4;
+}
 
 /* main */
 
@@ -66,16 +155,16 @@ header img {
 }
 
 section p {
-  /margin-top: 1rem;
+  margin-top: 1rem;
   font-family: 'Exo', sans-serif;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 1rem;
 }
 
 #pag1 section ul {
   margin-top: .75rem;
   padding-left: 1.5rem;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -91,11 +180,27 @@ h2 {
   font-size: 2rem;
 }
 
-.h2blauw {
-  color: #005eb8;
-  margin-top: -0.30em;
+.spanblauw {
+  display: block;
   text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #005eb8;
+  margin-top: -0.5em;
 }
+
+.spangeel {
+  display: block;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 300;
+  font-size: 2rem;
+  color: #fedd00;
+  margin-top: -0.5em;
+}
+
+
 
 .h2geel {
   color: #fedd00;
@@ -111,8 +216,7 @@ h2 {
 
 section .of {
   color: #005eb8;
-  font-size: 18px;
-  /font-weight: ;
+  font-size: 1rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
@@ -171,7 +275,7 @@ section .of {
 }
 
 .bf-deals ul {
-  font-size: 18px;
+  font-size: 1rem;
 }
 
 .bf-deals .pgeel {
@@ -179,7 +283,7 @@ section .of {
   font-size: 13px;
   text-transform: uppercase;
   text-align: left;
-  padding: 12px;
+  padding: .8rem;
   max-width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -191,7 +295,7 @@ section .of {
   font-size: 13px;
   text-transform: uppercase;
   text-align: left;
-  padding: 12px;
+  padding: .8rem;
   max-width: 80%;
   margin-right: auto;
   margin-left: auto;
@@ -233,7 +337,8 @@ section .of {
 }
 
 .header button {
-  border: none;
+border: none;
+background-color: transparent;
 }
 
 .header a {
@@ -241,19 +346,25 @@ section .of {
 }
 
 
-.buttons {
-  margin: 4.5rem 0 5rem 0;
+.buttons1 {
+  margin: 4.5rem 0 0rem 0;
   display: flex;
   flex-direction: column;
 }
 
-.buttons a,
+.buttons2  {
+  margin: 0rem 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons1 a, .buttons2 a,
 #aanbieding1 a,
 #aanbieding2 a,
 .bdonkerblauw a,
 .bzwart a {
   color: white;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -292,7 +403,7 @@ section .of {
 
 .bgeel a {
   color: black;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
 }
@@ -333,7 +444,7 @@ section .of {
 
 #nav-list a {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 1rem;
   color: grey;
 }
 
@@ -349,8 +460,8 @@ footer {
 
 footer a,
 footer p {
-  padding: 5px;
-  font-size: 14px;
+  padding: .25em;
+  font-size: 1rem;
   color: gray;
   text-decoration: none;
 }
@@ -424,7 +535,7 @@ footer p {
 
 #pag2 section:nth-of-type(2) p {
   font-family: 'Exo', sans-serif;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: .5rem;
 }
@@ -437,8 +548,7 @@ footer p {
 #pag2 section:nth-of-type(3) .foto {
   margin: 0 .5rem 1rem 1rem;
   display: block;
-  width: 50%;
-  height: 50%;
+  max-width: 50%;
 }
 
 #pag2 section:nth-of-type(3) {
@@ -448,13 +558,12 @@ footer p {
 }
 
 #pag2 section:nth-of-type(3) li img {
-  /background-color: pink;
+  display: block;
   max-width: 40px;
 
 }
 
 #pag2 section:nth-of-type(3) li {
-  /background-color: pink;
   margin: .5rem;
   padding: .25rem;
   border: 2px solid white;
@@ -537,6 +646,8 @@ span:nth-of-type(3) {
   left: 1.25rem;
   }
 
+  /*slider*/
+
 .slidercontainer {
   width: 100%;
 }
@@ -560,8 +671,8 @@ opacity: 1;
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  width: 30px;
-  height: 50px;
+  width: 2rem;
+  height: 3rem;
   border-radius: 4px;
   background: #009fdf;
   cursor: pointer;
@@ -571,6 +682,8 @@ opacity: 1;
   width: 25px;
   height: 25px;
 }
+
+/* Bron: https://www.w3schools.com/howto/howto_js_rangeslider.asp */
 
 
 
@@ -610,8 +723,8 @@ opacity: 1;
 .v3,
 .v4,
 .v5 {
-  height: 48px;
-  width: 48px;
+  height: 3rem;
+  width: 3rem;
   border-radius: 5px;
   vertical-align: top;
   margin-right: 1rem;
@@ -650,7 +763,7 @@ opacity: 1;
   margin: 1.5rem .25rem 1.5rem .25rem;
   padding: .75rem 1rem;
   font-family: 'Exo', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 550;
   border: 1px solid lightgrey;
   border-radius: 8px;
@@ -698,10 +811,6 @@ opacity: 1;
   background-color: white;
   color: #43b02a;
 }
-
-
-
-
 
 
 
@@ -754,26 +863,117 @@ label {
 }
 
 
-
-/* hamburgernavigatie */
-
-.navbar {
-  width: 100%;
-  height: 100%;
-}
-
 /* Breakpoint 1*/
 
 @media (min-width: 40em) {
-
-  section {
+  .iphone11 , .iphone12mini, .simonly, .galaxys20, .galaxya51, .vriendenvoordeel {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
+  }
 
+  .iphone11 h2, .iphone11 ul, 
+  .iphone11 button, .iphone12mini h2, 
+  .iphone12mini ul, .iphone12mini button,
+  .galaxys20 h2, .galaxys20 ul, .galaxys20 button
+  {
+    grid-column-start: 1;
+    align-self: end;
+    justify-self: center;
   }
-  .links1 {
-grid-column: 2 / 3;
 
+  .simonly h2, .simonly ul, 
+  .simonly button, .galaxya51 h2, 
+  .galaxya51 ul, .galaxya51 button,
+  .vriendenvoordeel h2, .vriendenvoordeel p, .vriendenvoordeel button
+  {
+    grid-column-start: 2;
+    align-self: end;
+    justify-self: center;
   }
-  
+
+  .iphone11 h2, .iphone11 span,
+  .iphone12mini h2, .iphone12mini span,
+  .galaxys20 h2, .galaxys20 span,
+  .galaxya51 h2, .galaxya51 span,
+  .vriendenvoordeel h2, .vriendenvoordeel span,
+  .simonly h2, .simonly span
+   {
+    font-size: 3rem;
   }
+ 
+  .iphone11 img,
+  .iphone12mini img,
+  .galaxys20 img
+   {
+    grid-row: 1 / 4;
+    grid-column-start: 2;
+  }
+
+  .simonly img,
+  .galaxya51 img,
+  .vriendenvoordeel img
+   {
+    grid-row: 1 / 4;
+    grid-column-start: 1;
+  }
+
+  .bf-deals {
+    display: flex;
+    flex-wrap: wrap;
+    /width: 50%;
+  }
+
+  #bf{
+    display: flex;
+    flex-wrap: wrap;
+    /width: 50%;
+  }
+ 
+  .buttons1 , .buttons2 {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+  }
+
+
+}
+
+
+/* Breakpoint 2*/
+
+@media (min-width: 60em) {
+  #pag2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .telinformatie {
+    grid-row: 1 / 4;
+    grid-column-start: 1;
+    position: sticky;
+  }
+}
+@media (min-width: 80em) {
+  .iphone11 h2, .iphone11 span,
+  .iphone12mini h2, .iphone12mini span,
+  .galaxys20 h2, .galaxys20 span,
+  .galaxya51 h2, .galaxya51 span,
+  .vriendenvoordeel h2, .vriendenvoordeel span,
+  .simonly h2, .simonly span
+   {
+    font-size: 4rem;
+  }
+
+  .iphone11 li, .iphone11 button a,
+  .iphone12mini li, .iphone12mini a,
+  .galaxys20 li, .galaxys20 a,
+  .galaxya51 li, .galaxya51 a,
+  .simonly li, .simonly a,
+  .vriendenvoordeel p, .vriendenvoordeel a
+   {
+    font-size: 1.45rem;
+  }
+
+}
+
